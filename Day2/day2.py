@@ -12,8 +12,7 @@ for val in f.readlines():
 
     if(stringToEvaluate.count(letter) <= highest and stringToEvaluate.count(letter) >= lowest):
         answer1+=1
-    if(stringToEvaluate[lowest-1] == letter and not stringToEvaluate[highest-1] == letter) or (not stringToEvaluate[lowest-1] == letter and stringToEvaluate[highest-1] == letter):
-        print(line)
+    if (stringToEvaluate[lowest-1] == letter) is not (stringToEvaluate[highest-1] == letter):
         answer2+=1
 print(answer1)
 print(answer2)
