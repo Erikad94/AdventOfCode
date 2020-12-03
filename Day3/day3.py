@@ -16,5 +16,3 @@ def calculateTrees(right, down):
 
 print(calculateTrees(3, 1))
 print(calculateTrees(1, 1)*calculateTrees(3, 1)*calculateTrees(5, 1)*calculateTrees(7, 1)*calculateTrees(1, 2))
-
-
