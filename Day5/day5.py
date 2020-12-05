@@ -37,5 +37,3 @@ for line in f.readlines():
         seatIdMax = id
 print(seatIdMax)
 print(FindSeat())
-
-
