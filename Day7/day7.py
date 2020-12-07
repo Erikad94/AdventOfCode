@@ -2,9 +2,7 @@ import sys
 import re
 
 f = open("input.txt", "r")
-containsStartlenght = 9
 reg = r'^([\w]+ [\w]+)'
-
 
 def hasColor(bags, rules, colorToFind):
     for bag in bags:
