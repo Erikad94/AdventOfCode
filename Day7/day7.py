@@ -4,12 +4,12 @@ import re
 f = open("input.txt", "r")
 reg = r'^([\w]+ [\w]+)'
 
-def hasColor(bags, rules, colorToFind):
+def hasColoredBag(bags, rules, colorToFind):
     for bag in bags:
         if (bag[0] == colorToFind):
             return True
     for bag in bags:
-        if hasColor(rules[bag[0]], rules, colorToFind):
+        if hasColoredBag(rules[bag[0]], rules, colorToFind):
             return True
     return False
 
@@ -40,7 +40,7 @@ for line in f.readlines():
 
 nbrBag = 0
 for bag in rules:
-    if hasColor(rules[bag], rules, "shiny gold"):
+    if hasColoredBag(rules[bag], rules, "shiny gold"):
         nbrBag += 1
 
 print(nbrBag)
