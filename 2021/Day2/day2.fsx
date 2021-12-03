@@ -8,10 +8,13 @@ let rec star1 (x:string [] list, struct(a, b) ) =
     | [] -> a*b
     //Take first element and the rest of the list
     | current :: restList -> 
+        //increases the horizontal position by X units
         if current.[0] = "forward" then 
             star1 (restList,(a + int current.[1], b))
+        //increases the depth by X units.
         elif current.[0] = "down" then 
             star1 (restList,(a, b + int current.[1]))
+        //decreases the depth by X units.
         else
             star1 (restList,(a, b - int current.[1]))
 
