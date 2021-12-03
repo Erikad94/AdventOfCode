@@ -1,6 +1,6 @@
 open System.IO
 
-let input = File.ReadAllLines("Day1/day1/input.txt") |> Array.map(fun x -> int x) |> Array.toList
+let input = File.ReadAllLines("Day1/input.txt") |> Array.map(fun x -> int x) |> Array.toList
 
 let rec star1 (x:List<int>) =
     match x with
