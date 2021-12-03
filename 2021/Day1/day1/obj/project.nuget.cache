@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "GszKQscK8pcWwLuHp25ynSwwMYi/hdSaDmKobcaYQRgGF4UTWzfl6XJULyWOrlmHC3QA1N4lioViFLA+Aa1Pkg==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\Erika\\Documents\\AdventOfCode\\2021\\Day1\\day1\\day1.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Erika\\.nuget\\packages\\fsharp.core\\6.0.1\\fsharp.core.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

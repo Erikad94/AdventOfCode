@@ -1,0 +1,3 @@
+c:\Users\Erika\Documents\AdventOfCode\2021\Day1\day1\obj\Debug\net6.0\day1.AssemblyInfoInputs.cache
+c:\Users\Erika\Documents\AdventOfCode\2021\Day1\day1\obj\Debug\net6.0\day1.AssemblyInfo.fs
+c:\Users\Erika\Documents\AdventOfCode\2021\Day1\day1\obj\Debug\net6.0\day1.fsproj.CoreCompileInputs.cache
